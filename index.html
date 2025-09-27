@@ -11,84 +11,100 @@
 
 <body>
     <section class="bg-[#F5FCFF]">
-        <div class="flex justify-between items-center m-7
-             bg-[#FFFFFF] px-10 py-4 rounded-lg shadow-lg">
-            <div class="flex items-center gap-2 ">
+        <div class="flex flex-col m-2 md:flex-row md:justify-between md:items-center md:mt-0 md:mb-7 md:mx-7
+             bg-[#FFFFFF] px-4 md:px-10 py-2 md:py-4 rounded-lg shadow-lg">
+            <div class="flex items-center md:items-center gap-2 md:gap-2 mb-4 md:mb-0">
                 <div>
-                    <img class="h-10 w-auto" src="/Images/logo1.png" alt="">
+                    <img class="h-8 will-change-auto md:h-10 md:w-auto" src="/Images/logo1.png" alt="">
                 </div>
                 <div>
-                    <p>logoipsum</p>
+                    <p class="text-base md:text-lg">logoipsum</p>
                 </div>
             </div>
 
-            <div>
-                <ul class="flex space-x-5">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Testimonials</a></li>
+            <div class="mb-3 md:mb-0">
+                <ul
+                    class="flex flex-col items-center gap-1 md:gap-0 md:font-normal font-light md:flex-row md:space-x-5">
+                    <li><a class="block px-2 py-1 rounded hover:bg-gray-100 hover:font-bold md:hover:bg-transparent"
+                            href="#">Home</a></li>
+                    <li><a class="block hover:font-bold px-2 py-1 rounded hover:bg-gray-100 md:hover:bg-transparent"
+                            href="#">Portfolio</a></li>
+                    <li><a class="block hover:font-bold px-2 py-1 rounded hover:bg-gray-100 md:hover:bg-transparent"
+                            href="#">About me</a></li>
+                    <li><a class="block hover:font-bold px-2 py-1 rounded hover:bg-gray-100 md:hover:bg-transparent"
+                            href="#">Testimonials</a></li>
                 </ul>
             </div>
-            <div>
-                <button class="rounded-md border p-1 hover:bg-green-200"><a class="" href="#">Contact me</a></button>
+            <div class="mt-2 md:mt-0 text-center">
+                <button
+                    class="rounded-md border p-1 text-[13px] md:font-semibold md:text-[15px] hover:text-white hover:bg-[#4219e6]"><a
+                        class="" href="#">Contact me</a></button>
             </div>
 
         </div>
 
-        <div class="flex justify-between items-center py-22 px-16 bg-[#F5FCFF]">
-            <div>
-                <p class="pl-1">Hey, Iam John</p>
-                <h2 class="text-6xl pt-4">I create <span class="text-[#5E3BEE]">product design</span> <br> and brand
+        <div
+            class="flex flex-col-reverse md:flex-row justify-between items-center py-8 px-4 md:py-16 md:px-16 bg-[#F5FCFF]">
+            <div class="text-center md:text-left">
+                <p class="pl-1 text-sm md:text-base">Hey, Iam John</p>
+                <h2 class="md:text-6xl text-4xl font-bold pt-4">I create <span class="text-[#5E3BEE]">product
+                        design</span> <br class="hidden md:block"> and brand
                     experience</h2>
-                <p class="pt-4 text">Iam a product designer with over 8 years of experience <br> in creating
+                <p class="pt-4 text-sm md:text-base leading-relaxed ">Iam a product designer with over 8 years of
+                    experience <br class="hidden md:block"> in
+                    creating
                     user-centric
-                    designs for web and mobile <br> applications.
+                    designs for web and mobile <br class="hidden md:block"> applications.
                 </p>
-                <button class="rounded-sm bg-[#5E3BEE] mt-10 p-3 text-white hover:bg-[#4219e6]"><a href="#">Get In
+                <button
+                    class="rounded-sm px-4 py-2 bg-[#5E3BEE] mt-6 md:px-6 md:py-3 md:mt-10 md:p-3 md:text-base text-white hover:bg-[#4219e6] transition"><a
+                        href="#">Get In
                         Touch</a></button>
             </div>
-            <div>
-                <img class="h-114  pr-4 mt-8" src="/Images/portfolio-heroslide.png" alt="">
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+                <img class="h-48 md:h-96 py-4 md:py-0 md:pr-4 pr-0 mt-8 md:mt-0 object-contain"
+                    src="/Images/portfolio-heroslide.png" alt="">
             </div>
         </div>
     </section>
 
-    <div class="pt-26 pb-10">
+    <div class="pt-16 md:pt-26 md:pb-10">
         <div>
-            <p class="pl-10 font-medium">My skills</p>
-            <h2 class="pl-10 text-5xl font-bold">My Expertise</h2>
+            <p class="pl-8 md:pl-10 font-medium">My skills</p>
+            <h2 class="pl-8 text-3xl md:pl-10 md:text-5xl font-bold">My Expertise</h2>
         </div>
 
-        <div class="flex justify-between px-10 pt-25 pb-5 gap-6">
-            <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img src="/Images/Strategy & Direction.png" alt="">
-                <h3 class="text-2xl font-semibold">Strategy & Direction</h3>
+        <div
+            class="flex flex-col-reverse md:flex-row justify-between px-8 pt-18 pb-3.5 gap-5 md:px-10 md:pt-25 md:pb-5 md:gap-6">
+            <div class="bg-[#F5FCFF] p-3.5 md:p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
+                <img class="h-20 w-auto md:h-auto md:w-max" src="/Images/Strategy & Direction.png" alt="">
+                <h3 class="text-xl md:text-2xl font-semibold">Strategy & Direction</h3>
                 <p class="text-sm pt-2">I develop strategies that help brands to connect with their audience and achieve
                     their business
                     goals.</p>
             </div>
 
             <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img src="/Images/Branding & Logo.png" alt="">
-                <h3 class="text-2xl font-semibold">Branding & Logo</h3>
+                <img class="h-20 w-auto md:h-auto md:w-max" src="/Images/Branding & Logo.png" alt="">
+                <h3 class="text-xl md:text-2xl font-semibold">Branding & Logo</h3>
                 <p class="text-sm pt-2">I create logos and brand identities that reflect the values and personality of
                     the
                     brand.</p>
             </div>
 
             <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img src="/Images/UI & UX Design.png" alt="">
-                <h3 class="text-2xl font-semibold">UI & UX Design</h3>
+                <img class="h-20 w-auto md:h-auto md:w-max" src="/Images/UI & UX Design.png" alt="">
+                <h3 class="text-xl md:text-2xl font-semibold">UI & UX Design</h3>
                 <p class="text-sm pt-2">I design user interfaces and experiences that are intuitive, engaging, and easy
                     to
                     use.</p>
             </div>
 
             <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img src="/Images/Webflow Development.png" alt="">
-                <h3 class="text-2xl font-semibold">Webflow Development</h3>
-                <p class="text-sm pt-2">I build responsive and interactive websites using Webflow that are optimized for
+                <img class="h-20 w-auto md:h-auto md:w-max" src="/Images/Webflow Development.png" alt="">
+                <h3 class="text-xl md:text-2xl font-semibold">Webflow Development</h3>
+                <p class=" text-sm pt-2">I build responsive and interactive websites using Webflow that are optimized
+                    for
                     performance and
                     SEO.</p>
             </div>
@@ -96,15 +112,16 @@
     </div>
 
     <div>
-        <div class="flex justify-between items-center pt-35 pb-5 px-10 gap-25">
+        <div
+            class="flex flex-col pt-25 pb-3 px-8 gap-18 md:flex-row justify-between items-center md:pt-35 md:pb-5 md:px-10 md:gap-25">
             <div>
-                <img class="h-170 w-190 pt-6" src="/Images/About Me.png" alt="">
+                <img class="h-120 w-auto pt-2.5 md:h-170 md:w-190 md:pt-6" src="/Images/About Me.png" alt="">
             </div>
 
             <div>
                 <p class="font-medium">About</p>
-                <h3 class="font-bold text-4xl pb-5">About Me</h3>
-                <p class="font-sans font-normal text-lg">
+                <h3 class="font-bold text-3xl md:text-4xl pb-5">About Me</h3>
+                <p class="font-sans font-normal text-[16px] md:text-lg">
                     Iam a product designer with over 8 years of experience in creating user-centric <br> designs for web
                     and mobile
                     applications. <br> I have a strong background in graphic design, branding, and marketing, <br> which
@@ -115,111 +132,116 @@
         </div>
     </div>
 
-    <div class="pt-26 ">
-        <div class="flex justify-between items-center pt-35 pb-10 px-10 gap-25 ">
+    <div class="pt-10 md:pt-26 ">
+        <div
+            class="flex flex-col pt-25 pb-5 px-8 gap-5 md:flex-row justify-center md:justify-between items-center md:pt-35 md:pb-10 md:px-10 md:gap-25 ">
             <div>
                 <p class="font-medium">Recent projects</p>
-                <h3 class="font-bold text-4xl pb-5">My portfolio</h3>
+                <h3 class="font-bold text-3xl pb-0 md:text-4xl md:pb-5">My portfolio</h3>
             </div>
 
-            <div class=" flex justify-between items-center gap-4 px-2 py-2 text-white bg-[#E62872] rounded-md shadow-sm hover:shadow-md"">
+            <div
+                class=" flex px-1.5 py-1.5 md:justify-between items-center gap-2 md:gap-4 md:px-2 md:py-2 text-white bg-[#E62872] rounded-md shadow-sm hover:shadow-sm hover:bg-[#C2185B] transition">
                 <div>
-                    <img class=" h-8 w-auto" src="/Images/Dribble icon.png" alt="">
+                    <img class="h-5 w-auto md:h-8 md:w-auto" src="/Images/Dribble icon.png" alt="">
+                </div>
+
+                <div>
+                    <button><a class="text-[13px] text-white" target="_blank"
+                            href="https://github.com/hasib-dev-20/tailwind-pro-pra">Visit My
+                            Dribble</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col mt-5 md:mt-0 text-center md:flex-row items-center justify-between px-8 pb-6 gap-5 md:px-10 md:pb-10 md:gap-8">
+            <div
+                class="flex md:flex-col gap-2 md:gap-0 items-center bg-white p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl">
+                <img class="h-40 w-auto md:h-89 md:w-90" src="/Images/A huse 2.png" alt="">
+                <h4 class="font-bold text-[18px] md:text-xl">A huse</p>
+                    <p class="font-sans font-normal mt-1 md:mt-0 text-[16px] md:text-lg">
+                        A web design project for a real estate company that showcases their properties and services.
+                    </p>
             </div>
 
-            <div>
-                <button><a target="_blank" href="https://github.com/hasib-dev-20/tailwind-pro-pra">Visit My
-                        Dribble</a></button>
+            <div class="flex md:flex-col gap-2 md:gap-0 items-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl">
+                <img class="h-40 w-auto md:h-89 md:w-90" src="/Images/App Dashboard.png" alt="">
+                <h4 class="font-bold  text-xl">App Dashboard</p>
+                    <p class="font-sans font-normal mt-1 md:mt-0 text-[16px] md:text-lg">
+                        A mobile app design project for a fitness tracking app that helps users to monitor their
+                        progress.
+                    </p>
+            </div>
+
+            <div class="flex md:flex-col gap-2 md:gap-0 items-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl">
+                <img class="h-40 w-auto md:h-89 md:w-90" src="/Images/Easy Rent.png" alt="">
+                <h4 class="font-bold  text-xl">Easy Rent</p>
+                    <p class="font-sans font-normal mt-1 md:mt-0 text-[16px] md:text-lg">
+                        A web design project for a car rental company that allows users to browse and book vehicles
+                        online.
+                    </p>
             </div>
         </div>
     </div>
 
-    <div class="flex justify-between px-10 pb-10 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl">
-            <img class="h-89 w-90" src="/Images/A huse 2.png" alt="">
-            <h4 class="font-bold  text-xl">A huse</p>
-                <p class="font-sans font-normal text-lg">
-                    A web design project for a real estate company that showcases their properties and services.
-                </p>
+    <div class="bg-[#F5FCFF] pb-10 md:pb-15">
+        <div class="pt-18 px-8 md:pt-30 md:px-10">
+            <p class="font-medium text-[14px] md:text-base">Clients Feedback</p>
+            <h3 class="font-bold text-3xl md:text-4xl pb-2.5  md:pb-5">Customer testimonials</h3>
         </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl">
-            <img class="h-89 w-90" src="/Images/App Dashboard.png" alt="">
-            <h4 class="font-bold  text-xl">App Dashboard</p>
-                <p class="font-sans font-normal         text-lg">
-                    A mobile app design project for a fitness tracking app that helps users to monitor their
-                    progress.
-                </p>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl">
-            <img class="h-89 w-95" src="/Images/Easy Rent.png" alt="">
-            <h4 class="font-bold  text-xl">Easy Rent</p>
-                <p class="font-sans font-normal text-lg">
-                    A web design project for a car rental company that allows users to browse and book vehicles
-                    online.
-                </p>
-        </div>
-    </div>
-    </div>
-
-    <div class="bg-[#F5FCFF] pb-15">
-        <div class="pt-30 px-10">
-            <p class="font-medium">Clients Feedback</p>
-            <h3 class="font-bold text-4xl pb-5">Customer testimonials</h3>
-        </div>
-        <div class="flex justify-between items-center
-            px-10 pt-10 gap-8">
-            <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img class="w-40" src="/Images/Stars.png" alt="">
-                <p class="pt-5 font-medium">
+        <div class="flex flex-col md:flex-row justify-between items-center px-8 pt-8 gap-5
+            md:px-10 md:pt-10 md:gap-8">
+            <div class="bg-[#F5FCFF] p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
+                <img class="h-auto w-25 md:w-40" src="/Images/Stars.png" alt="">
+                <p class="pt-3.5 text-[14px] md:pt-5 font-semibold md:font-medium">
                     "John is an amazing product designer. He helped us to create a user-friendly and visually appealing
                     website that has significantly improved our online presence."
                 </p>
 
-                <div class="flex items-center gap-4 pt-5">
+                <div class="flex items-center gap-2 pt-3.5 md:gap-4 md:pt-5">
                     <div>
-                        <img class="h-15 w-auto" src="/Images/Dienne Russel.png" alt="">
+                        <img class="h-10 w-auto md:h-15 md:w-auto" src="/Images/Dienne Russel.png" alt="">
                     </div>
                     <div>
-                        <p class="text-xl font-semibold">Dienne Russel</p>
-                        <p>Starbucks</p>
+                        <p class="text-[16px] md:text-xl font-semibold">Dienne Russel</p>
+                        <p class="text-[14px] md:text-base">Starbucks</p>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img class="w-40" src="/Images/Stars.png" alt="">
-                <p class="pt-5 font-medium">
+            <div class="bg-[#F5FCFF] p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
+                <img class="h-auto w-25 md:w-40" src="/Images/Stars.png" alt="">
+                <p class="pt-3.5 text-[14px] md:pt-5 font-semibold md:font-medium">
                     "John is an amazing product designer. He helped us to create a user-friendly and visually appealing
                     website that has significantly improved our online presence."
                 </p>
 
-                <div class="flex items-center gap-4 pt-5">
+                <div class="flex items-center gap-2 pt-3.5 md:gap-4 md:pt-5">
                     <div>
-                        <img class="h-15 w-auto" src="/Images/Kristian Watson.png" alt="">
+                        <img class="h-10 w-auto md:h-15 md:w-auto" src="/Images/Kristian Watson.png" alt="">
                     </div>
                     <div>
-                        <p class="text-xl font-semibold">Kristian Watson</p>
-                        <p>Louis Vuitton</p>
+                        <p class="text-[16px] md:text-xl font-semibold">Kristian Watson</p>
+                        <p class="text-[14px] md:text-base">Louis Vuitton</p>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-[#F5FCFF] p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
-                <img class="w-40" src="/Images/Stars.png" alt="">
-                <p class="pt-5 font-medium">
+            <div class="bg-[#F5FCFF] p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl hover:bg-white">
+                <img class="h-auto w-25 md:w-40" src="/Images/Stars.png" alt="">
+                <p class="pt-3.5 text-[14px] md:pt-5 font-semibold md:font-medium">
                     "John is an amazing product designer. He helped us to create a user-friendly and visually appealing
                     website that has significantly improved our online presence."
                 </p>
 
-                <div class="flex items-center gap-4 pt-5">
+                <div class="flex items-center gap-2 pt-3.5 md:gap-4 md:pt-5">
                     <div>
-                        <img class="h-15 w-auto" src="/Images/Kathryn Murphy.png" alt="">
+                        <img class="h-10 w-auto md:h-15 md:w-auto" src="/Images/Kathryn Murphy.png" alt="">
                     </div>
                     <div>
-                        <p class="text-xl font-semibold">Kathryn Murphy</p>
-                        <p>McDonald's</p>
+                        <p class="text-[16px] md:text-xl font-semibold">Kathryn Murphy</p>
+                        <p class="text-[14px] md:text-base">McDonald's</p>
                     </div>
                 </div>
             </div>
@@ -228,48 +250,52 @@
 
     <section>
         <form>
-            <div class="pt-35 px-10 bg-[#F5FCFF] pb-8">
+            <div class="pt-20 px-8 pb-6 md:pt-35 md:px-10 bg-[#F5FCFF] md:pb-8">
                 <div>
-                    <p class="text-center font-semibold">Get In Touch</p>
-                    <h3 class="text-center pt-5 font-bold text-5xl">Contact me</h3>
-                    <p class="text-center pt-10 font-medium">
+                    <p class="text-center font-semibold text-[14px] md:text-base">Get In Touch</p>
+                    <h3 class="text-center pt-2 text-4xl md:pt-5 font-bold md:text-5xl">Contact me</h3>
+                    <p class="text-center pt-5 text-[16px] md:text-base md:pt-10 md:font-medium">
                         Iam always open to discussing new projects, creative ideas, or opportunities to be part of your
                         visions. <br> Feel free to reach out to me using the form below.
                     </p>
                 </div>
 
-                <div class="flex justify-center items-center gap-7">
+                <div class="flex flex-col pt-5 md:pt-0 md:flex-row justify-center items-center gap-2 md:gap-7">
                     <div class="flex flex-col">
                         <label for="name">First name</label>
-                        <input type="text" class="border rounded-md p-1  w-90" required>
+                        <input type="text" class="border rounded-md p-1 w-70 md:w-90" required>
                     </div>
                     <div class="flex flex-col">
                         <label for="name">Last name</label>
-                        <input type="text" class="border rounded-md p-1 w-90 " required>
+                        <input type="text" class="border rounded-md p-1 w-70 md:w-90 " required>
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center gap-7">
+                <div class="flex flex-col pt-3 md:flex-row md:pt-0 justify-center items-center gap-3 md:gap-7">
                     <div class="flex flex-col">
                         <label for="name">Email</label>
-                        <input type="email" class="border rounded-md p-1  w-90" required>
+                        <input type="email" class="border rounded-md p-1  w-70 md:w-90" required>
                     </div>
                     <div class="flex flex-col">
                         <label for="name">Phone number</label>
-                        <input type="number" class="border rounded-md p-1 w-90 " required>
+                        <input type="number" class="border rounded-md p-1 w-70 md:w-90 " required>
                     </div>
                 </div>
 
-                <div class="flex flex-col w-120 pt-2 ml-65">
+                <div class="flex flex-col ml-[70px] w-70 md:w-120 pt-2 md:ml-65">
                     <label for="topic">Choose a topic</label>
-                    <select id="topic" name="topic" class="border rounded-md p-1 w-190"
+                    <select id="topic" name="topic" class="text-center border rounded-md p-1 w-70 md:w-190"
                         aria-placeholder="Select an option" required>
                         <option value="design">Design</option>
                         <option value="development">Development</option>
                         <option value="marketing">Marketing</option>
                         <option value="other">Other</option>
                 </div>
-
+                <div class="flex flex-col md:w-1/2">
+                    <label for="message" class="text-sm font-medium mb-2">Your message</label>
+                    <textarea id="message" name="message" rows="4" class="border rounded-md p-2 w-full"
+                        placeholder="Write your message here..." required></textarea>
+                </div>
             </div>
 
         </form>
